@@ -24,4 +24,16 @@ with col1:
   if respecto:
     st.write("Buenisima")
 
+with col2:
+  st.subheader("Segunda columna")
+  modo = st.radio("Tu que prefieres backed o fronted",("backend","fronted","ninguna"))
+  if modo == "backend":
+    st.write("Eres de los mios siuuuuuu")
+  if modo == "fronted":
+    st.write("Eres una mierda gasss")
+  if modo = "ninguna":
+    st.write("Que estas haciendo aqui entonces")
+    
+   
+
 
