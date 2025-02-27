@@ -33,6 +33,19 @@ with col2:
     st.write("Eres una mierda gasss")
   if modo == "ninguna":
     st.write("Que estas haciendo aqui entonces")
+
+st.subheader("uso de botones")
+in_mod = st.selectbox(
+  "selección de la modalidad",
+  ("Audío","Visual","Haptico"),
+)
+if in_mod == "Audio":
+  set_mod= "reproducion audio"
+elif in_mod == "Visual":
+  set_mod = "Reproducir video"
+elif in_mod == "Haptico":
+  set_mod = "Activar vibracion"
+st.write("la accion es:", set_mod)
     
    
 
