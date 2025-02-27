@@ -21,6 +21,7 @@ with col1:
   st.subheader("primera columna")
   st.write("Todo es mejor si programando estoy")
   respecto = st.checkbox("Estoy de acuerdo")
-  
+  if resp:
+    st.write("correctisimo omg que capo siiuiuiiiiiuuiuuuiuiu")
 
 
