@@ -31,7 +31,7 @@ with col2:
     st.write("Eres de los mios siuuuuuu")
   if modo == "fronted":
     st.write("Eres una mierda gasss")
-  if modo = "ninguna":
+  if modo == "ninguna":
     st.write("Que estas haciendo aqui entonces")
     
    
