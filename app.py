@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image 
 
-
+set_mod=""
 st.title("Hello word")
 
 st.header("En este espacio comienzo a desarrollar mis apps de interfaces multimodales")
